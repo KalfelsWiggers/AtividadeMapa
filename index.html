@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mapa </title>
+    <link rel="stylesheet" href="Tela.css">
+</head>
+<body>
+    <map name="meu_mapa">
+
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('RR');" shape="circle" coords="160,45,20" href="https://pt.wikipedia.org/wiki/Roraima" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('AP');" shape="circle" coords="277,53,20" href="https://pt.wikipedia.org/wiki/Amap%C3%A1" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('AM');" shape="circle" coords="119,119,20" href="https://pt.wikipedia.org/wiki/Amazonas" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('AC');" shape="circle" coords="43,184,20" href="https://pt.wikipedia.org/wiki/Acre" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('PA');" shape="circle" coords="264,133,20" href="https://pt.wikipedia.org/wiki/Par%C3%A1" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('RO');" shape="circle" coords="136,207,20" href="https://pt.wikipedia.org/wiki/Rond%C3%B4nia" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('MT');" shape="circle" coords="229,230,20" href="https://pt.wikipedia.org/wiki/Mato_Grosso" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('MA');" shape="circle" coords="361,134,20" href="https://pt.wikipedia.org/wiki/Maranh%C3%A3o" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('CE');" shape="circle" coords="428,136,20" href="https://pt.wikipedia.org/wiki/Cear%C3%A1" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('PI');" shape="circle" coords="387,170,20" href="https://pt.wikipedia.org/wiki/Piau%C3%AD" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('TO');" shape="circle" coords="320,197,20" href="https://pt.wikipedia.org/wiki/Tocantins" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('GO');" shape="circle" coords="297,274,20" href="https://pt.wikipedia.org/wiki/Goi%C3%A2nia" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('MS');" shape="circle" coords="239,325,20" href="https://pt.wikipedia.org/wiki/Mato_Grosso_do_Sul" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('PR');" shape="circle" coords="278,377,20" href="https://pt.wikipedia.org/wiki/Paran%C3%A1" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('RS');" shape="circle" coords="257,438,20" href="https://pt.wikipedia.org/wiki/Rio_Grande_do_Sul" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('SC');" shape="circle" coords="295,409,20" href="https://pt.wikipedia.org/wiki/Santa_Catarina" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('SP');" shape="circle" coords="313,348,20" href="https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo_(estado)" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('MG');" shape="circle" coords="364,312,20" href="https://pt.wikipedia.org/wiki/Minas_Gerais" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('RJ');" shape="circle" coords="383,351,20" href="https://pt.wikipedia.org/wiki/Rio_de_Janeiro_(estado)" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('ES');" shape="circle" coords="409,322,20" href="https://pt.wikipedia.org/wiki/Esp%C3%ADrito_Santo_(estado)" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('BA');" shape="circle" coords="397,226,20" href="https://pt.wikipedia.org/wiki/Bahia" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('SE');" shape="circle" coords="455,210,20" href="https://pt.wikipedia.org/wiki/Sergipe" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('AL');" shape="circle" coords="468,197,20" href="https://pt.wikipedia.org/wiki/Alagoas" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('PE');" shape="circle" coords="448,178,20" href="https://pt.wikipedia.org/wiki/Pernambuco" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('PB');" shape="circle" coords="475,167,20" href="https://pt.wikipedia.org/wiki/Para%C3%ADba" target="_blank">
+        <area onmouseleave="Esconder();" onmouseover="MostraTexto('RN');" shape="circle" coords="471,146,20" href="https://pt.wikipedia.org/wiki/Rio_Grande_do_Norte" target="_blank">
+    
+    </map>
+   
+    <div id="texto_rr" class="texto_rr"> RORAIMA </div>
+    <div id="texto_ap" class="texto_ap"> AMAPÁ </div>
+    <div id="texto_am" class="texto_am"> AMAZONAS </div>
+    <div id="texto_ac" class="texto_ac"> ACRE </div>
+    <div id="texto_pa" class="texto_pa"> PARÁ </div>
+    <div id="texto_ro" class="texto_ro"> RONDÔNIA </div>
+    <div id="texto_mt" class="texto_mt"> MATO GROSSO </div>
+    <div id="texto_ma" class="texto_ma"> MARANHÃO </div>
+    <div id="texto_ce" class="texto_ce"> CEARÁ </div>
+    <div id="texto_pi" class="texto_pi"> PIAUÍ </div>
+    <div id="texto_to" class="texto_to"> TOCANTINS </div>
+    <div id="texto_go" class="texto_go"> AMAPÁ </div>
+    <div id="texto_ms" class="texto_ms"> RORAIMA </div>
+    <div id="texto_pr" class="texto_pr"> AMAPÁ </div>
+    <div id="texto_rs" class="texto_rs"> RORAIMA </div>
+    <div id="texto_sc" class="texto_sc"> AMAPÁ </div>
+    <div id="texto_sp" class="texto_sp"> RORAIMA </div>
+    <div id="texto_mg" class="texto_mg"> AMAPÁ </div>
+    <div id="texto_rj" class="texto_rj"> RORAIMA </div>
+    <div id="texto_es" class="texto_es"> AMAPÁ </div>
+    <div id="texto_ba" class="texto_ba"> RORAIMA </div>
+    <div id="texto_se" class="texto_se"> AMAPÁ </div>
+    <div id="texto_al" class="texto_al"> RORAIMA </div>
+    <div id="texto_pe" class="texto_pe"> AMAPÁ </div>
+    <div id="texto_pb" class="texto_pb"> RORAIMA </div>
+    <div id="texto_rn" class="texto_rn"> AMAPÁ </div>
+    
+
+    <img id="mapa" src="Mapa.png" usemap="#meu_mapa">  
+    <img id="boneco" class="boneco" src="Boneco.gif" width="80px">
+    
+</body>
+<script>
+    
+    function Esconder()
+    {
+        texto_rr.style.display="none";
+        texto_ap.style.display="none";
+    }
+    function MostraTexto(estado)
+    {
+        if(estado == "RR")
+        {
+            texto_rr.style.display = "block";
+        }
+        if(estado == "AP")
+        {
+            texto_ap.style.display = "block";
+        }
+    }
+
+</script>
+</html>

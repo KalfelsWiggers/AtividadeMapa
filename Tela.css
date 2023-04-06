@@ -1,0 +1,40 @@
+body
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    justify-items: center;
+    overflow: hidden;
+    margin: 0px;
+}
+    .boneco
+    {
+        position: absolute;
+        top: 500px;
+        left: 650px;
+    }
+    
+        .texto_rr
+        {
+            width: 80px;
+            height: 80px;
+            background-color: green;
+            position: absolute;
+            top: 400px;
+            left: 200px;
+            display: none;
+        }
+        .texto_ap
+        {
+            width: 80px;
+            height: 80px;
+            background-color: yellow;
+            position: absolute;
+            top: 400px;
+            left: 200px;
+            display: none;
+        }
